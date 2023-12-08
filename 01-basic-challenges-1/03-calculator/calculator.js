@@ -12,7 +12,7 @@ function calculator(firstNumber, secondNumber, operator) {
     case '/':
       return firstNumber / secondNumber;
     default:
-      throw 'Invalid operator given!';
+      throw new Error('Invalid operator given!');
   }
 }
 
