@@ -5,6 +5,7 @@ function countOccurrences(str, char) {
       occurences++;
     }
   }
+  
   return occurences;
 }
 
